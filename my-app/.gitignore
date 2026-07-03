@@ -10,6 +10,7 @@
 /.idea
 /.nova
 /.phpunit.cache
+/.phpunit.result.cache
 /.vscode
 /.zed
 /auth.json
@@ -20,6 +21,10 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/bootstrap/cache/
 /vendor
 _ide_helper.php
 Homestead.json
