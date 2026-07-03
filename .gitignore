@@ -1,0 +1,33 @@
+# Laravel vendor & dependencies
+my-app/vendor/
+my-app/node_modules/
+
+# Environment files (sensitive)
+my-app/.env
+
+# Laravel storage & cache
+my-app/storage/logs/*.log
+my-app/storage/framework/cache/
+my-app/storage/framework/sessions/
+my-app/storage/framework/views/
+my-app/bootstrap/cache/
+
+# Laravel compiled files
+my-app/public/hot
+my-app/public/storage
+my-app/public/build/
+
+# PHPUnit cache
+my-app/.phpunit.result.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
